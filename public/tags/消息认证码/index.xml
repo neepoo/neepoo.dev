@@ -9,6 +9,7 @@
     <pubDate>Mon, 15 Aug 2022 09:07:35 &#43;0800</pubDate><author>
         <name>neepoo</name>
     </author><guid>http://localhost:1313/posts/crypto_mac/</guid>
-    <description><![CDATA[简介消息认证码(英语：Message authentication code，缩写为MAC),又译为消息鉴别码、文件消息认证码、讯息鉴别码、信息认证码，是经过特定算法后产]]></description>
+    <description><![CDATA[<h2 id="简介" class="headerLink">
+    <a href="#%e7%ae%80%e4%bb%8b" class="header-mark"></a>简介</h2><p>消息认证码(英语：Message authentication code，缩写为MAC),又译为消息鉴别码、文件消息认证码、讯息鉴别码、信息认证码，是经过特定算法后产生的一小段信息，检查某段消息的完整性，以及作身份验证。<strong>它可以用来检查在消息传递过程中，其内容是否被更改过</strong>，不管更改的原因是来自意外或是蓄意攻击。同时可以作为消息来源的身份验证，确认消息的来源。</p>]]></description>
 </item></channel>
 </rss>

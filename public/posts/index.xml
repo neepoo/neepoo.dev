@@ -3,66 +3,160 @@
         <title>所有文章 - neepoo写字，分享的地方</title>
         <link>http://localhost:1313/posts/</link>
         <description>所有文章 | neepoo写字，分享的地方</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 16 Mar 2024 19:13:16 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>韦智凯个人简历</title>
-    <link>http://localhost:1313/posts/resumes/resumes/</link>
-    <pubDate>Sat, 16 Mar 2024 19:13:16 &#43;0800</pubDate><author>
-        <name>neepoo</name>
-    </author><guid>http://localhost:1313/posts/resumes/resumes/</guid>
-    <description><![CDATA[韦智凯 电话：13821628363 邮箱：neepoowzk@gmail.com 求职意向:Golang开发工程师 性别：男 年龄: 27 基本信息 天津城]]></description>
-</item><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 01 Apr 2023 16:48:31 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Golang中io包的ErrShortWrite</title>
     <link>http://localhost:1313/posts/errshortwrite/</link>
     <pubDate>Sat, 01 Apr 2023 16:48:31 &#43;0800</pubDate><author>
                         <name>韦智凯</name><uri>https://github.com/neepoo</uri><email>neepoowzk@gmail.com</email></author><guid>http://localhost:1313/posts/errshortwrite/</guid>
-    <description><![CDATA[结论先说结论，在Golang中遇到io.ErrShortWrite错误时，也就是short write时，说明你写入的数据大小要比期望的要小，]]></description>
+    <description><![CDATA[<h2 id="结论" class="headerLink">
+    <a href="#%e7%bb%93%e8%ae%ba" class="header-mark"></a>结论</h2><p>先说结论，在<code>Golang</code>中遇到<code>io.ErrShortWrite</code>错误时，也就是<code>short write</code>时，说明你写入的数据大小要比期望的要小，一般是结合<code>bufio</code>包一起使用时会碰到这个问题</p>
+<h2 id="问题复现" class="headerLink">
+    <a href="#%e9%97%ae%e9%a2%98%e5%a4%8d%e7%8e%b0" class="header-mark"></a>问题复现</h2><p>原始代码不方便贴出来，这里给出一个简单的复现代码</p>
+<div class="code-block highlight is-closed show-line-numbers  tw-group tw-my-2">
+  <div class="
+    
+    tw-flex 
+    tw-flex-row
+    tw-flex-1 
+    tw-justify-between 
+    tw-w-full tw-bg-bgColor-secondary
+    ">      
+    <button 
+      class="
+        code-block-button
+        tw-mx-2 
+        tw-flex
+        tw-flex-row
+        tw-flex-1"
+      aria-hidden="true">
+          <div class="group-[.is-open]:tw-rotate-90 tw-transition-[transform] tw-duration-500 tw-ease-in-out print:!tw-hidden tw-w-min tw-h-min tw-my-1 tw-mx-1"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg></div>
+          <p class="tw-select-none !tw-my-1">go</p>]]></description>
 </item><item>
     <title>阅读源码学习编码</title>
     <link>http://localhost:1313/posts/studying_py_by_reading_source_code/</link>
     <pubDate>Wed, 29 Mar 2023 20:00:21 &#43;0800</pubDate><author>
                         <name>韦智凯</name><uri>https://github.com/neepoo</uri><email>neepoowzk@gmail.com</email></author><guid>http://localhost:1313/posts/studying_py_by_reading_source_code/</guid>
-    <description><![CDATA[C语言 负数索引最近看redis源码，看到了这样的代码： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 typedef char *sds; struct __attribute__ ((__packed__)) sdshdr8 { uint8_t len; /* used */ uint8_t alloc; /* excluding the header and null terminator */ unsigned char flags; /* 3]]></description>
+    <description><![CDATA[<h1 id="c语言" class="headerLink">
+    <a href="#c%e8%af%ad%e8%a8%80" class="header-mark"></a>C语言</h1><h2 id="负数索引" class="headerLink">
+    <a href="#%e8%b4%9f%e6%95%b0%e7%b4%a2%e5%bc%95" class="header-mark"></a>负数索引</h2><p>最近看redis源码，看到了这样的代码：</p>
+<div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
+  <div class="
+    
+    tw-flex 
+    tw-flex-row
+    tw-flex-1 
+    tw-justify-between 
+    tw-w-full tw-bg-bgColor-secondary
+    ">      
+    <button 
+      class="
+        code-block-button
+        tw-mx-2 
+        tw-flex
+        tw-flex-row
+        tw-flex-1"
+      aria-hidden="true">
+          <div class="group-[.is-open]:tw-rotate-90 tw-transition-[transform] tw-duration-500 tw-ease-in-out print:!tw-hidden tw-w-min tw-h-min tw-my-1 tw-mx-1"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg></div>
+          <p class="tw-select-none !tw-my-1">c</p>]]></description>
 </item><item>
     <title>认证加密</title>
     <link>http://localhost:1313/posts/crypto_authenticated_encryption/</link>
     <pubDate>Wed, 17 Aug 2022 10:29:10 &#43;0800</pubDate><author>
         <name>neepoo</name>
     </author><guid>http://localhost:1313/posts/crypto_authenticated_encryption/</guid>
-    <description><![CDATA[保密(Confidentiality)是为了私密数据不被别人看到，而加密是实现这一目标的方法。说到密码学我们大多数值得就是加密，因为它确实无]]></description>
+    <description><![CDATA[<p>保密(Confidentiality)是为了私密数据不被别人看到，而加密是实现这一目标的方法。说到密码学我们大多数值得就是加密，因为它确实无处不在，它在现代社会中
+很多地方都有它来提供隐私和安全。在本文中，我会介绍到加密是什么，它解决了什么问题以及今天的应用程序是如何大量使用加密的。</p>]]></description>
 </item><item>
     <title>密码学之MAC</title>
     <link>http://localhost:1313/posts/crypto_mac/</link>
     <pubDate>Mon, 15 Aug 2022 09:07:35 &#43;0800</pubDate><author>
         <name>neepoo</name>
     </author><guid>http://localhost:1313/posts/crypto_mac/</guid>
-    <description><![CDATA[简介消息认证码(英语：Message authentication code，缩写为MAC),又译为消息鉴别码、文件消息认证码、讯息鉴别码、信息认证码，是经过特定算法后产]]></description>
+    <description><![CDATA[<h2 id="简介" class="headerLink">
+    <a href="#%e7%ae%80%e4%bb%8b" class="header-mark"></a>简介</h2><p>消息认证码(英语：Message authentication code，缩写为MAC),又译为消息鉴别码、文件消息认证码、讯息鉴别码、信息认证码，是经过特定算法后产生的一小段信息，检查某段消息的完整性，以及作身份验证。<strong>它可以用来检查在消息传递过程中，其内容是否被更改过</strong>，不管更改的原因是来自意外或是蓄意攻击。同时可以作为消息来源的身份验证，确认消息的来源。</p>]]></description>
 </item><item>
     <title>哈希算法</title>
     <link>http://localhost:1313/posts/crypto_hash/</link>
     <pubDate>Mon, 08 Aug 2022 11:11:27 &#43;0800</pubDate><author>
         <name>neepoo</name>
     </author><guid>http://localhost:1313/posts/crypto_hash/</guid>
-    <description><![CDATA[简介接收任意数据作为输入，返回独一无二的字节数组。输入相同，输出总是一致的。 什么是哈希？如果我们下载es, 会看到 它就是用sha512计算该文]]></description>
+    <description><![CDATA[<h2 id="简介" class="headerLink">
+    <a href="#%e7%ae%80%e4%bb%8b" class="header-mark"></a>简介</h2><p>接收任意数据作为输入，返回独一无二的字节数组。输入相同，输出总是一致的。</p>
+<h3 id="什么是哈希" class="headerLink">
+    <a href="#%e4%bb%80%e4%b9%88%e6%98%af%e5%93%88%e5%b8%8c" class="header-mark"></a>什么是哈希？</h3><p>如果我们下载<a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/targz.html" target="_blank" rel="noopener noreferrer">es</a>, 会看到<img class="tw-inline" loading="lazy" src='/posts/crypto_hash/es_sha512.png'   alt="如下步骤" height="327" width="773">
+它就是用sha512计算该文件的哈希值，随后用户可以利用该哈希值来判断下载的文件是否<strong>完整</strong>。这种机制它们提供完整性和真实性(你信任该网站，通过https)。
+下图是哈希的一般流程。</p>]]></description>
 </item><item>
     <title>Crypto</title>
     <link>http://localhost:1313/posts/crypto/</link>
     <pubDate>Wed, 03 Aug 2022 10:24:00 &#43;0800</pubDate><author>
         <name>neepoo</name>
     </author><guid>http://localhost:1313/posts/crypto/</guid>
-    <description><![CDATA[概要循序渐进介绍各类加密算法，包括哈希算法、对称加密算法、非对称加密算法。他们的使用场景，基本原理。 相互信任是前提 两大主题 私密性 身份验证]]></description>
+    <description><![CDATA[<h2 id="概要" class="headerLink">
+    <a href="#%e6%a6%82%e8%a6%81" class="header-mark"></a>概要</h2><p>循序渐进介绍各类加密算法，包括哈希算法、对称加密算法、非对称加密算法。他们的使用场景，基本原理。</p>
+<h3 id="相互信任是前提" class="headerLink">
+    <a href="#%e7%9b%b8%e4%ba%92%e4%bf%a1%e4%bb%bb%e6%98%af%e5%89%8d%e6%8f%90" class="header-mark"></a>相互信任是前提</h3><h2 id="两大主题" class="headerLink">
+    <a href="#%e4%b8%a4%e5%a4%a7%e4%b8%bb%e9%a2%98" class="header-mark"></a>两大主题</h2><h3 id="私密性" class="headerLink">
+    <a href="#%e7%a7%81%e5%af%86%e6%80%a7" class="header-mark"></a>私密性</h3><h3 id="身份验证" class="headerLink">
+    <a href="#%e8%ba%ab%e4%bb%bd%e9%aa%8c%e8%af%81" class="header-mark"></a>身份验证</h3>]]></description>
 </item><item>
     <title>Database_transaction</title>
     <link>http://localhost:1313/posts/database_transaction/</link>
     <pubDate>Thu, 19 May 2022 16:45:17 &#43;0800</pubDate><author>
         <name>neepoo</name>
     </author><guid>http://localhost:1313/posts/database_transaction/</guid>
-    <description><![CDATA[为什么需要事务数据库系统在很多方面都很容易出错，譬如： 软硬件故障 应用程序崩溃 意外的网络中断 为了实现可靠性，系统需要处理这些故障，而事务(tr]]></description>
+    <description><![CDATA[<h2 id="为什么需要事务" class="headerLink">
+    <a href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e9%9c%80%e8%a6%81%e4%ba%8b%e5%8a%a1" class="header-mark"></a>为什么需要事务</h2><p>数据库系统在很多方面都很容易出错，譬如：</p>
+<ol>
+<li>软硬件故障</li>
+<li>应用程序崩溃</li>
+<li>意外的网络中断</li>
+</ol>
+<p>为了实现可靠性，系统需要处理这些故障，而事务(transaction)一直是简化这些问题的首选机制。</p>
+<p>事务是应用程序将多个读写操作组合成一个逻辑单元的一种形式。事务中的所有读写操作被视为单个操作来执行。整个事务要么成功<strong>提交(commit)</strong>,要么失败<strong>回滚(rollback)</strong>。回滚带来的好处是，应用程序的错误处理变得简单多了，因为他不用担心<strong>部分失败</strong>的情况。</p>]]></description>
 </item><item>
     <title>Linux kernel下的IPv4</title>
     <link>http://localhost:1313/posts/ipv4-kernel/</link>
     <pubDate>Thu, 12 May 2022 17:47:25 &#43;0800</pubDate><author>
         <name>neepoo</name>
     </author><guid>http://localhost:1313/posts/ipv4-kernel/</guid>
-    <description><![CDATA[会覆盖到的内容 IPv4简介 IPv4在内核的执行 发送和接收IPv4包 广播包 IPv4转发 当发送的包大于MTU，需要对该包做分片(fragment]]></description>
+    <description><![CDATA[<h2 id="会覆盖到的内容" class="headerLink">
+    <a href="#%e4%bc%9a%e8%a6%86%e7%9b%96%e5%88%b0%e7%9a%84%e5%86%85%e5%ae%b9" class="header-mark"></a>会覆盖到的内容</h2><ol>
+<li>IPv4简介</li>
+<li>IPv4在内核的执行
+<ol>
+<li>发送和接收IPv4包
+<ol>
+<li>广播包</li>
+<li>IPv4转发</li>
+</ol>
+</li>
+<li>当发送的包大于MTU，需要对该包做分片(fragment)</li>
+<li>组装之前分片的包</li>
+</ol>
+</li>
+</ol>
+<h2 id="ipv4简介" class="headerLink">
+    <a href="#ipv4%e7%ae%80%e4%bb%8b" class="header-mark"></a>IPv4简介</h2><p>IPv4协议是今天互联网的核心协议之一，并且它路由了互联网的大部分流量。它在两台主机之间提供了端到端的连通性，并且具有转发包（路由）的功能。</p>]]></description>
+</item><item>
+    <title>韦智凯</title>
+    <link>http://localhost:1313/posts/resumes/resumes/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate><author>
+        <name>neepoo</name>
+    </author><guid>http://localhost:1313/posts/resumes/resumes/</guid>
+    <description><![CDATA[<h1 id="韦智凯" class="headerLink">
+    <a href="#%e9%9f%a6%e6%99%ba%e5%87%af" class="header-mark"></a>韦智凯</h1><blockquote>
+  <p>电话：<code>13821628363</code>       邮箱：<code>neepoowzk@gmail.com</code> 		个人状态: <code>当前不处于求职状态</code>
+性别：<code>男</code>             年龄: <code>27</code></p>
+
+</blockquote><h2 id="基本信息" class="headerLink">
+    <a href="#%e5%9f%ba%e6%9c%ac%e4%bf%a1%e6%81%af" class="header-mark"></a>基本信息</h2><ul>
+<li>
+<h3 id="天津城建大学---本科---电子信息科学与技术--201409---201806" class="headerLink">
+    <a href="#%e5%a4%a9%e6%b4%a5%e5%9f%8e%e5%bb%ba%e5%a4%a7%e5%ad%a6---%e6%9c%ac%e7%a7%91---%e7%94%b5%e5%ad%90%e4%bf%a1%e6%81%af%e7%a7%91%e5%ad%a6%e4%b8%8e%e6%8a%80%e6%9c%af--201409---201806" class="header-mark"></a>天津城建大学 - 本科 - 电子信息科学与技术  (2014.09 - 2018.06)</h3></li>
+<li>
+<p><strong><code>Github</code></strong> <a href="https://github.com/neepoo" target="_blank" rel="noopener noreferrer">neepoo</a>   |  <strong>个人博客：</strong> <a href="https://neepoo.dev/" target="_blank" rel="noopener noreferrer">neepoo.dev</a></p>]]></description>
 </item></channel>
 </rss>

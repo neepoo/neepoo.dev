@@ -9,6 +9,11 @@
     <pubDate>Mon, 08 Aug 2022 11:11:27 &#43;0800</pubDate><author>
         <name>neepoo</name>
     </author><guid>http://localhost:1313/posts/crypto_hash/</guid>
-    <description><![CDATA[简介接收任意数据作为输入，返回独一无二的字节数组。输入相同，输出总是一致的。 什么是哈希？如果我们下载es, 会看到 它就是用sha512计算该文]]></description>
+    <description><![CDATA[<h2 id="简介" class="headerLink">
+    <a href="#%e7%ae%80%e4%bb%8b" class="header-mark"></a>简介</h2><p>接收任意数据作为输入，返回独一无二的字节数组。输入相同，输出总是一致的。</p>
+<h3 id="什么是哈希" class="headerLink">
+    <a href="#%e4%bb%80%e4%b9%88%e6%98%af%e5%93%88%e5%b8%8c" class="header-mark"></a>什么是哈希？</h3><p>如果我们下载<a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/targz.html" target="_blank" rel="noopener noreferrer">es</a>, 会看到<img class="tw-inline" loading="lazy" src='/posts/crypto_hash/es_sha512.png'   alt="如下步骤" height="327" width="773">
+它就是用sha512计算该文件的哈希值，随后用户可以利用该哈希值来判断下载的文件是否<strong>完整</strong>。这种机制它们提供完整性和真实性(你信任该网站，通过https)。
+下图是哈希的一般流程。</p>]]></description>
 </item></channel>
 </rss>

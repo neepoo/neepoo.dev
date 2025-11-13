@@ -9,13 +9,24 @@
     <pubDate>Mon, 08 Aug 2022 11:11:27 &#43;0800</pubDate><author>
         <name>neepoo</name>
     </author><guid>http://localhost:1313/posts/crypto_hash/</guid>
-    <description><![CDATA[简介接收任意数据作为输入，返回独一无二的字节数组。输入相同，输出总是一致的。 什么是哈希？如果我们下载es, 会看到 它就是用sha512计算该文]]></description>
+    <description><![CDATA[<h2 id="简介" class="headerLink">
+    <a href="#%e7%ae%80%e4%bb%8b" class="header-mark"></a>简介</h2><p>接收任意数据作为输入，返回独一无二的字节数组。输入相同，输出总是一致的。</p>
+<h3 id="什么是哈希" class="headerLink">
+    <a href="#%e4%bb%80%e4%b9%88%e6%98%af%e5%93%88%e5%b8%8c" class="header-mark"></a>什么是哈希？</h3><p>如果我们下载<a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/targz.html" target="_blank" rel="noopener noreferrer">es</a>, 会看到<img class="tw-inline" loading="lazy" src='/posts/crypto_hash/es_sha512.png'   alt="如下步骤" height="327" width="773">
+它就是用sha512计算该文件的哈希值，随后用户可以利用该哈希值来判断下载的文件是否<strong>完整</strong>。这种机制它们提供完整性和真实性(你信任该网站，通过https)。
+下图是哈希的一般流程。</p>]]></description>
 </item><item>
     <title>Crypto</title>
     <link>http://localhost:1313/posts/crypto/</link>
     <pubDate>Wed, 03 Aug 2022 10:24:00 &#43;0800</pubDate><author>
         <name>neepoo</name>
     </author><guid>http://localhost:1313/posts/crypto/</guid>
-    <description><![CDATA[概要循序渐进介绍各类加密算法，包括哈希算法、对称加密算法、非对称加密算法。他们的使用场景，基本原理。 相互信任是前提 两大主题 私密性 身份验证]]></description>
+    <description><![CDATA[<h2 id="概要" class="headerLink">
+    <a href="#%e6%a6%82%e8%a6%81" class="header-mark"></a>概要</h2><p>循序渐进介绍各类加密算法，包括哈希算法、对称加密算法、非对称加密算法。他们的使用场景，基本原理。</p>
+<h3 id="相互信任是前提" class="headerLink">
+    <a href="#%e7%9b%b8%e4%ba%92%e4%bf%a1%e4%bb%bb%e6%98%af%e5%89%8d%e6%8f%90" class="header-mark"></a>相互信任是前提</h3><h2 id="两大主题" class="headerLink">
+    <a href="#%e4%b8%a4%e5%a4%a7%e4%b8%bb%e9%a2%98" class="header-mark"></a>两大主题</h2><h3 id="私密性" class="headerLink">
+    <a href="#%e7%a7%81%e5%af%86%e6%80%a7" class="header-mark"></a>私密性</h3><h3 id="身份验证" class="headerLink">
+    <a href="#%e8%ba%ab%e4%bb%bd%e9%aa%8c%e8%af%81" class="header-mark"></a>身份验证</h3>]]></description>
 </item></channel>
 </rss>

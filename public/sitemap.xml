@@ -2,19 +2,18 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://localhost:1313/</loc><lastmod>2024-03-16T19:26:06&#43;08:00</lastmod></url><url>
-            <loc>http://localhost:1313/posts/</loc><lastmod>2024-03-16T19:26:06&#43;08:00</lastmod></url><url>
-            <loc>http://localhost:1313/posts/resumes/resumes/</loc><lastmod>2024-03-16T19:26:06&#43;08:00</lastmod></url><url>
-            <loc>http://localhost:1313/authors/</loc><lastmod>2024-03-16T19:26:06&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/authors/</loc><lastmod>2024-03-16T19:39:55&#43;08:00</lastmod></url><url>
             <loc>http://localhost:1313/categories/</loc><lastmod>2023-11-02T12:47:50&#43;08:00</lastmod></url><url>
             <loc>http://localhost:1313/tags/errshortwrite/</loc><lastmod>2023-04-01T17:25:30&#43;08:00</lastmod></url><url>
             <loc>http://localhost:1313/tags/golang/</loc><lastmod>2023-04-01T17:25:30&#43;08:00</lastmod></url><url>
             <loc>http://localhost:1313/posts/errshortwrite/</loc><lastmod>2023-04-01T17:25:30&#43;08:00</lastmod></url><url>
             <loc>http://localhost:1313/tags/io/</loc><lastmod>2023-04-01T17:25:30&#43;08:00</lastmod></url><url>
-            <loc>http://localhost:1313/authors/neepoo/</loc><lastmod>2024-03-16T19:26:06&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/authors/neepoo/</loc><lastmod>2024-03-16T19:39:55&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/</loc><lastmod>2024-11-10T23:03:04&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/</loc><lastmod>2024-11-10T23:03:04&#43;08:00</lastmod></url><url>
             <loc>http://localhost:1313/tags/</loc><lastmod>2023-11-02T12:47:50&#43;08:00</lastmod></url><url>
             <loc>http://localhost:1313/categories/%E6%8A%80%E6%9C%AF/</loc><lastmod>2023-11-02T12:47:50&#43;08:00</lastmod></url><url>
-            <loc>http://localhost:1313/about/</loc><lastmod>2024-03-16T19:26:06&#43;08:00</lastmod></url><url>
+            <loc>http://localhost:1313/about/</loc><lastmod>2024-03-16T19:39:55&#43;08:00</lastmod></url><url>
             <loc>http://localhost:1313/tags/c/</loc><lastmod>2023-03-29T23:42:29&#43;08:00</lastmod></url><url>
             <loc>http://localhost:1313/tags/til/</loc><lastmod>2023-03-29T23:42:29&#43;08:00</lastmod></url><url>
             <loc>http://localhost:1313/tags/%E4%BB%8A%E5%A4%A9%E5%AD%A6%E5%88%B0%E4%BA%86%E4%BB%80%E4%B9%88/</loc><lastmod>2023-03-29T23:42:29&#43;08:00</lastmod></url><url>
@@ -40,4 +39,5 @@
             <loc>http://localhost:1313/tags/kernel/</loc><lastmod>2023-04-01T17:25:30&#43;08:00</lastmod></url><url>
             <loc>http://localhost:1313/posts/ipv4-kernel/</loc><lastmod>2023-04-01T17:25:30&#43;08:00</lastmod></url><url>
             <loc>http://localhost:1313/tags/network/</loc><lastmod>2023-04-01T17:25:30&#43;08:00</lastmod></url><url>
-            <loc>http://localhost:1313/series/</loc></url></urlset>
+            <loc>http://localhost:1313/series/</loc></url><url>
+            <loc>http://localhost:1313/posts/resumes/resumes/</loc><lastmod>2024-11-10T23:03:04&#43;08:00</lastmod></url></urlset>

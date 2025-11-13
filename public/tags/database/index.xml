@@ -9,6 +9,14 @@
     <pubDate>Thu, 19 May 2022 16:45:17 &#43;0800</pubDate><author>
         <name>neepoo</name>
     </author><guid>http://localhost:1313/posts/database_transaction/</guid>
-    <description><![CDATA[为什么需要事务数据库系统在很多方面都很容易出错，譬如： 软硬件故障 应用程序崩溃 意外的网络中断 为了实现可靠性，系统需要处理这些故障，而事务(tr]]></description>
+    <description><![CDATA[<h2 id="为什么需要事务" class="headerLink">
+    <a href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e9%9c%80%e8%a6%81%e4%ba%8b%e5%8a%a1" class="header-mark"></a>为什么需要事务</h2><p>数据库系统在很多方面都很容易出错，譬如：</p>
+<ol>
+<li>软硬件故障</li>
+<li>应用程序崩溃</li>
+<li>意外的网络中断</li>
+</ol>
+<p>为了实现可靠性，系统需要处理这些故障，而事务(transaction)一直是简化这些问题的首选机制。</p>
+<p>事务是应用程序将多个读写操作组合成一个逻辑单元的一种形式。事务中的所有读写操作被视为单个操作来执行。整个事务要么成功<strong>提交(commit)</strong>,要么失败<strong>回滚(rollback)</strong>。回滚带来的好处是，应用程序的错误处理变得简单多了，因为他不用担心<strong>部分失败</strong>的情况。</p>]]></description>
 </item></channel>
 </rss>

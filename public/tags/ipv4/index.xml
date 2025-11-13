@@ -9,6 +9,23 @@
     <pubDate>Thu, 12 May 2022 17:47:25 &#43;0800</pubDate><author>
         <name>neepoo</name>
     </author><guid>http://localhost:1313/posts/ipv4-kernel/</guid>
-    <description><![CDATA[会覆盖到的内容 IPv4简介 IPv4在内核的执行 发送和接收IPv4包 广播包 IPv4转发 当发送的包大于MTU，需要对该包做分片(fragment]]></description>
+    <description><![CDATA[<h2 id="会覆盖到的内容" class="headerLink">
+    <a href="#%e4%bc%9a%e8%a6%86%e7%9b%96%e5%88%b0%e7%9a%84%e5%86%85%e5%ae%b9" class="header-mark"></a>会覆盖到的内容</h2><ol>
+<li>IPv4简介</li>
+<li>IPv4在内核的执行
+<ol>
+<li>发送和接收IPv4包
+<ol>
+<li>广播包</li>
+<li>IPv4转发</li>
+</ol>
+</li>
+<li>当发送的包大于MTU，需要对该包做分片(fragment)</li>
+<li>组装之前分片的包</li>
+</ol>
+</li>
+</ol>
+<h2 id="ipv4简介" class="headerLink">
+    <a href="#ipv4%e7%ae%80%e4%bb%8b" class="header-mark"></a>IPv4简介</h2><p>IPv4协议是今天互联网的核心协议之一，并且它路由了互联网的大部分流量。它在两台主机之间提供了端到端的连通性，并且具有转发包（路由）的功能。</p>]]></description>
 </item></channel>
 </rss>

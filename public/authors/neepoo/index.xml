@@ -8,18 +8,63 @@
     <link>http://localhost:1313/posts/errshortwrite/</link>
     <pubDate>Sat, 01 Apr 2023 16:48:31 &#43;0800</pubDate><author>
                         <name>韦智凯</name><uri>https://github.com/neepoo</uri><email>neepoowzk@gmail.com</email></author><guid>http://localhost:1313/posts/errshortwrite/</guid>
-    <description><![CDATA[结论先说结论，在Golang中遇到io.ErrShortWrite错误时，也就是short write时，说明你写入的数据大小要比期望的要小，]]></description>
+    <description><![CDATA[<h2 id="结论" class="headerLink">
+    <a href="#%e7%bb%93%e8%ae%ba" class="header-mark"></a>结论</h2><p>先说结论，在<code>Golang</code>中遇到<code>io.ErrShortWrite</code>错误时，也就是<code>short write</code>时，说明你写入的数据大小要比期望的要小，一般是结合<code>bufio</code>包一起使用时会碰到这个问题</p>
+<h2 id="问题复现" class="headerLink">
+    <a href="#%e9%97%ae%e9%a2%98%e5%a4%8d%e7%8e%b0" class="header-mark"></a>问题复现</h2><p>原始代码不方便贴出来，这里给出一个简单的复现代码</p>
+<div class="code-block highlight is-closed show-line-numbers  tw-group tw-my-2">
+  <div class="
+    
+    tw-flex 
+    tw-flex-row
+    tw-flex-1 
+    tw-justify-between 
+    tw-w-full tw-bg-bgColor-secondary
+    ">      
+    <button 
+      class="
+        code-block-button
+        tw-mx-2 
+        tw-flex
+        tw-flex-row
+        tw-flex-1"
+      aria-hidden="true">
+          <div class="group-[.is-open]:tw-rotate-90 tw-transition-[transform] tw-duration-500 tw-ease-in-out print:!tw-hidden tw-w-min tw-h-min tw-my-1 tw-mx-1"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg></div>
+          <p class="tw-select-none !tw-my-1">go</p>]]></description>
 </item><item>
     <title>关于我</title>
     <link>http://localhost:1313/about/</link>
     <pubDate>Wed, 29 Mar 2023 22:26:22 &#43;0800</pubDate><author>
                         <name>韦智凯</name><uri>https://github.com/neepoo</uri><email>neepoowzk@gmail.com</email></author><guid>http://localhost:1313/about/</guid>
-    <description><![CDATA[大学时觉得neepoo很顺口，就一直叫这个了。当前正在求职，这是我的简历,如果您对我感兴趣请联系我。之前一直在一家网安公司从事后台开发。 之前]]></description>
+    <description><![CDATA[<p>大学时期取了“neepoo”这个昵称并一直沿用至今。如需联系，可以通过邮箱 <a href="mailto:neepoowzk@gmail.com" rel="">neepoowzk@gmail.com</a> 与我取得联系（也可以在首页查看我的其他社交帐号）。现在在做音频应用相关。</p>]]></description>
 </item><item>
     <title>阅读源码学习编码</title>
     <link>http://localhost:1313/posts/studying_py_by_reading_source_code/</link>
     <pubDate>Wed, 29 Mar 2023 20:00:21 &#43;0800</pubDate><author>
                         <name>韦智凯</name><uri>https://github.com/neepoo</uri><email>neepoowzk@gmail.com</email></author><guid>http://localhost:1313/posts/studying_py_by_reading_source_code/</guid>
-    <description><![CDATA[C语言 负数索引最近看redis源码，看到了这样的代码： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 typedef char *sds; struct __attribute__ ((__packed__)) sdshdr8 { uint8_t len; /* used */ uint8_t alloc; /* excluding the header and null terminator */ unsigned char flags; /* 3]]></description>
+    <description><![CDATA[<h1 id="c语言" class="headerLink">
+    <a href="#c%e8%af%ad%e8%a8%80" class="header-mark"></a>C语言</h1><h2 id="负数索引" class="headerLink">
+    <a href="#%e8%b4%9f%e6%95%b0%e7%b4%a2%e5%bc%95" class="header-mark"></a>负数索引</h2><p>最近看redis源码，看到了这样的代码：</p>
+<div class="code-block highlight is-open show-line-numbers  tw-group tw-my-2">
+  <div class="
+    
+    tw-flex 
+    tw-flex-row
+    tw-flex-1 
+    tw-justify-between 
+    tw-w-full tw-bg-bgColor-secondary
+    ">      
+    <button 
+      class="
+        code-block-button
+        tw-mx-2 
+        tw-flex
+        tw-flex-row
+        tw-flex-1"
+      aria-hidden="true">
+          <div class="group-[.is-open]:tw-rotate-90 tw-transition-[transform] tw-duration-500 tw-ease-in-out print:!tw-hidden tw-w-min tw-h-min tw-my-1 tw-mx-1"><svg class="icon"
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"/></svg></div>
+          <p class="tw-select-none !tw-my-1">c</p>]]></description>
 </item></channel>
 </rss>
