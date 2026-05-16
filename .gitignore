@@ -1,2 +1,25 @@
-resources
-.idea
+# Hugo generated output
+/public/
+/resources/_gen/
+/.hugo_build.lock
+/hugo_stats.json
+
+# Hugo module and build cache
+/.hugo/
+
+# Node tooling, when used for asset pipelines
+/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDEs and editors
+/.idea/
+/.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db

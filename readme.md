@@ -4,8 +4,8 @@
 
 ```shell
 # 拉取主题
+git submodule update --init --recursive
 
-git clone https://github.com/HEIGE-PCloud/DoIt.git themes/DoIt
 # 运行本地服务
 hugo server -D
 ```
