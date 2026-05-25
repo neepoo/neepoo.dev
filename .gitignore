@@ -23,3 +23,8 @@ pnpm-debug.log*
 # OS files
 .DS_Store
 Thumbs.db
+
+# Photo pipeline: raw originals never enter git (privacy + bloat)
+/inbox/*
+!/inbox/.gitkeep
+.env
