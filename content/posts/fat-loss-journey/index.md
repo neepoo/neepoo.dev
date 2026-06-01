@@ -26,6 +26,27 @@ tags: ["减脂", "健康", "身材管理"]
 - 全马 4 小时内完赛
 - 环城绿道一圈（97 km）骑进 3 小时
 
+## 当前进度
+
+> 更新时间：2026-06-01。
+> 数据只是反馈，不因为单日波动影响执行。
+
+| 指标     |         起点 |     当前 |            目标 | 状态     |
+| -------- | -----------: | -------: | --------------: | -------- |
+| 体重     |        81 kg |    79 kg |           70 kg | 进行中   |
+| 体脂率   |       约 24% |    22.1% |    暂不设硬目标 | 观察趋势 |
+| 腰围     |      93.2 cm |    92 cm |           85 cm | 进行中   |
+| 月跑量   |         0 km | 105.9 km |    稳定 100 km+ | 已恢复   |
+| 半马     | 历史 1:45 内 |   恢复中 |         1:40 内 | 长期目标 |
+| 全马     | 暂无近期成绩 |   恢复中 |        4 小时内 | 长期目标 |
+| 环城绿道 |    约 4 小时 |  3:49:02 | 97 km 进 3 小时 | 长期目标 |
+
+## 月度训练报告
+
+| 月份    | 训练报告                                                                           |     跑步 |     骑行 | 力量/器械 | 备注             |
+| ------- | ---------------------------------------------------------------------------------- | -------: | -------: | --------: | ---------------- |
+| 2026-05 | [2026 年 5 月训练月报：重新开始](/posts/training-summary-2026-05/) | 105.9 km | 701.7 km |     15 次 | 恢复训练第一个月 |
+
 ## 执行计划
 
 ### 训练安排
@@ -72,6 +93,9 @@ tags: ["减脂", "健康", "身材管理"]
 | 2026-05-29 |                                                                                                                                                                                                                                                                                                                                                                                         | 80.15     | 22.6       | 92.2      | 605配送51min                                                          |
 | 2026-05-30 |                                                                                                                                                                                                                                                                                                                                                                                         | 79.95     | 22.5       | 92.8      | 休息                                                                  |
 | 2026-05-31 | <a href="https://cdn.neepoo.dev/cdn-cgi/image/width=1080,format=auto,quality=82/fat-loss/2026-05-31.jpg"><img src="https://cdn.neepoo.dev/cdn-cgi/image/width=120,height=160,fit=cover,gravity=auto,format=auto,quality=80/fat-loss/2026-05-31.jpg" width="60" height="80" loading="lazy" alt="2026-05-31" style="border-radius:8px;display:block;object-fit:cover;max-width:none"></a> | 79.75     | 22.5       | 93.2      | 骑行120KM,绿道均速突破25了                                            |
+| 2026-06-01 | <a href="https://cdn.neepoo.dev/cdn-cgi/image/width=1080,format=auto,quality=82/fat-loss/2026-06-01.jpg"><img src="https://cdn.neepoo.dev/cdn-cgi/image/width=120,height=160,fit=cover,gravity=auto,format=auto,quality=80/fat-loss/2026-06-01.jpg" width="60" height="80" loading="lazy" alt="2026-06-01" style="border-radius:8px;display:block;object-fit:cover;max-width:none"></a> | 79.05     | 22.1       | 92        | 腿部训练20s,跑步机8.5kph 60min                                        |
+
+> 2026 年 5 月总结：[查看五月训练月报](/posts/training-summary-2026-05/)
 
 ---
 
