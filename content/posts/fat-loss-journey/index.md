@@ -43,9 +43,9 @@ tags: ["减脂", "健康", "身材管理"]
 
 ## 月度训练报告
 
-| 月份    | 月报                                                               |       体重变化 |        腰围变化 |     跑步 |     骑行 | 力量/器械 | 阶段判断         |
-| ------- | ------------------------------------------------------------------ | -------------: | --------------: | -------: | -------: | --------: | ---------------- |
-| 2026-05 | [2026 年 5 月训练月报：重新开始](/posts/training-summary-2026-05/) | 80.2 → 79.05 kg | 93.2 → 92.0 cm | 105.9 km | 701.7 km |     15 次 | 训练习惯已恢复   |
+| 月份    | 月报                                                               |        体重变化 |       腰围变化 |     跑步 |     骑行 | 力量/器械 | 阶段判断       |
+| ------- | ------------------------------------------------------------------ | --------------: | -------------: | -------: | -------: | --------: | -------------- |
+| 2026-05 | [2026 年 5 月训练月报：重新开始](/posts/training-summary-2026-05/) | 80.2 → 79.05 kg | 93.2 → 92.0 cm | 105.9 km | 701.7 km |     15 次 | 训练习惯已恢复 |
 
 ## 执行计划
 
@@ -73,10 +73,11 @@ tags: ["减脂", "健康", "身材管理"]
 
 ### 2026 年 6 月
 
-| 日期       | 照片                                                                                                                                                                                                                                                                                                                                                                                    | 体重 (kg) | 体脂率 (%) | 腰围 (cm) | 备注                                                                  |
-| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | ---------- | --------- | --------------------------------------------------------------------- |
-| 2026-06-02 | <a href="https://cdn.neepoo.dev/cdn-cgi/image/width=1080,format=auto,quality=82/fat-loss/2026-06-02.jpg"><img src="https://cdn.neepoo.dev/cdn-cgi/image/width=120,height=160,fit=cover,gravity=auto,format=auto,quality=80/fat-loss/2026-06-02.jpg" width="60" height="80" loading="lazy" alt="2026-06-02" style="border-radius:8px;display:block;object-fit:cover;max-width:none"></a> | 79.7     | 22.4       | 92.1      | 胸8s背8s,跑步机8.6kph 50min                                        |
-| 2026-06-01 | <a href="https://cdn.neepoo.dev/cdn-cgi/image/width=1080,format=auto,quality=82/fat-loss/2026-06-01.jpg"><img src="https://cdn.neepoo.dev/cdn-cgi/image/width=120,height=160,fit=cover,gravity=auto,format=auto,quality=80/fat-loss/2026-06-01.jpg" width="60" height="80" loading="lazy" alt="2026-06-01" style="border-radius:8px;display:block;object-fit:cover;max-width:none"></a> | 79.05     | 22.1       | 92.0      | 腿部训练20s,跑步机8.5kph 60min                                        |
+| 日期       | 照片                                                                                                                                                                                                                                                                                                                                                                                    | 体重 (kg) | 体脂率 (%) | 腰围 (cm) | 备注                           |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------- | ---------- | --------- | ------------------------------ |
+| 2026-06-03 |                                                                                                                                                                                                                                                                                                                                                                                         | 79.55     | 22.3       | 91.8      | 休息                           |
+| 2026-06-02 | <a href="https://cdn.neepoo.dev/cdn-cgi/image/width=1080,format=auto,quality=82/fat-loss/2026-06-02.jpg"><img src="https://cdn.neepoo.dev/cdn-cgi/image/width=120,height=160,fit=cover,gravity=auto,format=auto,quality=80/fat-loss/2026-06-02.jpg" width="60" height="80" loading="lazy" alt="2026-06-02" style="border-radius:8px;display:block;object-fit:cover;max-width:none"></a> | 79.7      | 22.4       | 92.1      | 胸8s背8s,跑步机8.6kph 50min    |
+| 2026-06-01 | <a href="https://cdn.neepoo.dev/cdn-cgi/image/width=1080,format=auto,quality=82/fat-loss/2026-06-01.jpg"><img src="https://cdn.neepoo.dev/cdn-cgi/image/width=120,height=160,fit=cover,gravity=auto,format=auto,quality=80/fat-loss/2026-06-01.jpg" width="60" height="80" loading="lazy" alt="2026-06-01" style="border-radius:8px;display:block;object-fit:cover;max-width:none"></a> | 79.05     | 22.1       | 92.0      | 腿部训练20s,跑步机8.5kph 60min |
 
 ### 2026 年 5 月
 
