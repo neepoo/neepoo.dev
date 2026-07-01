@@ -71,6 +71,12 @@ tags: ["减脂", "健康", "身材管理"]
 
 > 达成体重和腰围目标前，尽量每天记录一次。数据只是反馈，不用因为单日波动影响执行。
 
+### 2026 年 7 月
+
+| 日期      | 照片 | 体重 (kg) | 体脂率 (%) | 腰围 (cm) | 备注                                               |
+| --------- | ---- | --------- | ---------- | --------- | -------------------------------------------------- |
+| 2026-07-01 | <a href="https://cdn.neepoo.dev/cdn-cgi/image/width=1080,format=auto,quality=82/fat-loss/2026-07-01.jpg"><img src="https://cdn.neepoo.dev/cdn-cgi/image/width=120,height=160,fit=cover,gravity=auto,format=auto,quality=80/fat-loss/2026-07-01.jpg" width="60" height="80" loading="lazy" alt="2026-07-01" style="border-radius:8px;display:block;object-fit:cover;max-width:none"></a> | 78        | 21.6       | 90.3      | 侧平举+二头弯举+cable下拉+推肩；跑步机8.5kph 48min |
+
 ### 2026 年 6 月
 
 | 日期       | 照片                                                                                                                                                                                                                                                                                                                                                                                    | 体重 (kg) | 体脂率 (%) | 腰围 (cm) | 备注                                                                                                   |
