@@ -123,7 +123,9 @@ async function main() {
 
   for (const { date, src, moveTo, srcDir } of items) {
     // 处理图：烤方向 + 去元数据 + 缩放 + JPEG
-    const buf = await sharp(src)
+    // 从 Buffer 读入而非直接给路径：libvips 的 webp loader 会持有源文件句柄，
+    // 导致 Windows 下 rename 整个目录报 EPERM（jpg 不会）
+    const buf = await sharp(await readFile(src))
       .rotate()
       .resize({ width: MAX_EDGE, height: MAX_EDGE, fit: 'inside', withoutEnlargement: true })
       .jpeg({ quality: 85, mozjpeg: true })
@@ -155,7 +157,14 @@ async function main() {
     }
 
     // 移到 done/：目录形式移整个文件夹，文件形式移单文件
-    if (!DRY) await rename(srcDir ?? src, moveTo);
+    // 移动失败不能丢掉已改好的 md（图已上传），warn 后继续
+    if (!DRY) {
+      try {
+        await rename(srcDir ?? src, moveTo);
+      } catch (e) {
+        console.warn(`! 移动原图到 done/ 失败（${e.code}），请手动移动 ${srcDir ?? src}`);
+      }
+    }
   }
 
   await writeFile(POST, md);
